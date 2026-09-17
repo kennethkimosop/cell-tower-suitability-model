@@ -1,0 +1,13 @@
+﻿# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# QGIS temporary and backup files
+*.qgs~
+*.qgz~
+*.tmp
+
+# Large raw datasets (avoid pushing archives > 50MB)
+Outputs/*.zip
+RawData/*.csv
